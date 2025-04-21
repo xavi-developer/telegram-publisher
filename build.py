@@ -15,6 +15,8 @@ cmd = [
     "pyinstaller",
     "main.py",
     "--onefile",
+    "--strip",
+    "--clean",
     f"--distpath={dist_folder}",
     f"--workpath={build_folder}"
 ]
