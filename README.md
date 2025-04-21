@@ -5,7 +5,7 @@ Disclamer: I am not responsible for any error caused by this free software. Use 
 It is a software that is able to publish to a Telegram group (and its Topics if it has).
 
 # How to use it
-* download from dist/ folder the version that coresponds to your Operating System
+* download from dist/ folder the version that coresponds to your Operating System. If it's not available, you'll have to build it locally (view documentation below)
 * execute the file
 * if you want to use it in the terminal, run the software with --help parameter for more information
 
