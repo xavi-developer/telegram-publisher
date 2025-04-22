@@ -4,6 +4,8 @@ Disclamer: I am not responsible for any error caused by this free software. Use 
 
 It is a software that is able to publish to a Telegram group (and its Topics if it has).
 
+![preview](preview.png)
+
 # How to use it
 * download from https://github.com/xavi-developer/telegram-publisher/releases folder the version that coresponds to your Operating System
 * execute the file
