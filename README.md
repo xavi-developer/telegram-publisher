@@ -16,7 +16,7 @@ It allows to:
 * select a media folder to get content to publish
 * set the bot id (see below how to get one if you haven't any)
 * set the group id (see below how to get one if you haven't any)
-* set how many items will be published every time it is ran (script selects them randomly)
+* set how many items will be published every time it is run (script selects them randomly)
 * set the periodicity of the publications (only GUI version, for CLI version use a cron)
 
 Take into account telegram publication limits: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this
@@ -29,7 +29,7 @@ go to telegram and search for Bot Father. Follow the steps to get the token.
 ## create a group
 * create a group
 * add the bot created before (by its username)
-* send a message to the bot (@my_media_publisher_bot hello)
+* send a message to the bot inside the roup (@my_media_publisher_bot hello)
 * get to https://api.telegram.org/bot<BotToken>/getUpdates
     * it might take some minutes, but it will appear a json
     * chat id is: result.message.chat.id (it's a negative number, -100XXX)
@@ -39,7 +39,7 @@ go to telegram and search for Bot Father. Follow the steps to get the token.
 it is the absolute path of the folder where the content you want to publish is in
 
 ## group with Topics
-If your group is having topics (you can enable it in the group settings), your media folder will need subfolders with this naming format:
+If your group has topics (you can enable it in the group settings), your media folder will need subfolders with this naming format:
 TOPIC_ID TOPIC_NAME
 Example: "314 First topic" (TOPIC_NAME doesn't need to be the same as in Telegram Group, it's just for local reference)
 
@@ -52,7 +52,7 @@ In this case, suffix "_3" indicates that "3" is the ID of the Topic.
 # modify this software
 
 ## Disclamer
-* I have 25 years of experience as a developer, but this software it's chatGPT-made in 2 hours and I am not really into python
+* I have 25 years of experience as a developer, but this software is chatGPT-made in 2 hours and I am not really into python
 * Consider making a Pull Request if you add something useful
 
 ## install python
