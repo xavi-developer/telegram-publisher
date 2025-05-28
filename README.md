@@ -21,6 +21,8 @@ It allows to:
 
 Take into account telegram publication limits: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this
 
+* when a content is published, it is moved into "published" folder in order to have a backup and not publish it again
+
 # configuration
 
 ## create a bot
